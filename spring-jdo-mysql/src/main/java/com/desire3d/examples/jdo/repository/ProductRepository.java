@@ -3,9 +3,10 @@
  */
 package com.desire3d.examples.jdo.repository;
 
-import java.util.List;
-
 import com.desire3d.examples.jdo.model.Product;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 /**
  * @author mahesh
@@ -13,13 +14,13 @@ import com.desire3d.examples.jdo.model.Product;
  */
 public interface ProductRepository {
 
-	public Product save(Product product);
+	public Mono<Product> save(Product product);
 
-	public Product update(Product product);
+	public Mono<Product> update(Product product);
 
 	public void delete(Long productId);
 
-	public List<Product> findAll();
+	public Flux<Product> findAll();
 
-	public Product findById(Long productId);
+	public Mono<Product> findById(Long productId);
 }

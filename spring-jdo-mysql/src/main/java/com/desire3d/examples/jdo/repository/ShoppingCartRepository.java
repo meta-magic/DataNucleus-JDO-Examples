@@ -3,9 +3,10 @@
  */
 package com.desire3d.examples.jdo.repository;
 
-import java.util.List;
-
 import com.desire3d.examples.jdo.model.ShoppingCart;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 /**
  * @author mahesh
@@ -13,18 +14,17 @@ import com.desire3d.examples.jdo.model.ShoppingCart;
  */
 public interface ShoppingCartRepository {
 
-	public ShoppingCart save(ShoppingCart shoppingCart);
+	public Mono<ShoppingCart> save(ShoppingCart shoppingCart);
 
-	public ShoppingCart update(ShoppingCart shoppingCart);
+	public Mono<ShoppingCart> update(ShoppingCart shoppingCart);
 
 	public void delete(String cartId);
 
-	public List<ShoppingCart> findAll();
+	public Flux<ShoppingCart> findAll();
 
-	public ShoppingCart findById(String cartId);
+	public Mono<ShoppingCart> findById(String cartId);
 
 	public void removeItem(Long cartItemId);
 
-	public List<ShoppingCart> findByCustomerId(String customerId);
-
+	public Flux<ShoppingCart> findByCustomerId(String customerId);
 }

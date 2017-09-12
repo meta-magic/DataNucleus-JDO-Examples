@@ -16,6 +16,9 @@ import com.desire3d.examples.jdo.model.CartItem;
 import com.desire3d.examples.jdo.model.ShoppingCart;
 import com.desire3d.examples.jdo.repository.ShoppingCartRepository;
 
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
 /**
  * @author mahesh
  *
@@ -26,13 +29,13 @@ public class ShoppingCartRepositoryImpl implements ShoppingCartRepository {
 	private final PersistenceManagerFactory pmf = PMFConfig.getPersistenceManagerFactory();
 
 	@Override
-	public ShoppingCart save(ShoppingCart shoppingCart) {
-		return pmf.getPersistenceManager().makePersistent(shoppingCart);
+	public Mono<ShoppingCart> save(ShoppingCart shoppingCart) {
+		return Mono.just(pmf.getPersistenceManager().makePersistent(shoppingCart));
 	}
 
 	@Override
-	public ShoppingCart update(ShoppingCart shoppingCart) {
-		return pmf.getPersistenceManager().makePersistent(shoppingCart);
+	public Mono<ShoppingCart> update(ShoppingCart shoppingCart) {
+		return Mono.just(pmf.getPersistenceManager().makePersistent(shoppingCart));
 	}
 
 	@Override
@@ -44,25 +47,24 @@ public class ShoppingCartRepositoryImpl implements ShoppingCartRepository {
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public List<ShoppingCart> findAll() {
+	public Flux<ShoppingCart> findAll() {
 		PersistenceManager pm = PMFConfig.getPersistenceManagerFactory().getPersistenceManager();
 		Query query = pm.newQuery(ShoppingCart.class);
-		return (List<ShoppingCart>) query.execute();
+		return Flux.fromIterable((List<ShoppingCart>) query.execute());
 	}
 
 	@Override
-	public ShoppingCart findById(String cartId) {
-		return (ShoppingCart) pmf.getPersistenceManager().getObjectById(ShoppingCart.class, cartId);
+	public Mono<ShoppingCart> findById(String cartId) {
+		return Mono.justOrEmpty((ShoppingCart) pmf.getPersistenceManager().getObjectById(ShoppingCart.class, cartId));
 	}
-	
+
+	@SuppressWarnings("unchecked")
 	@Override
-	public List<ShoppingCart> findByCustomerId(String customerId) {
+	public Flux<ShoppingCart> findByCustomerId(String customerId) {
 		PersistenceManager pm = pmf.getPersistenceManager();
 		Query query = pm.newQuery(ShoppingCart.class);
 		query.setFilter("this.customerId==:customerId");
-		@SuppressWarnings("unchecked")
-		List<ShoppingCart> shoppingCartList = (List<ShoppingCart>) query.execute(customerId);
-		return shoppingCartList;
+		return Flux.fromIterable((List<ShoppingCart>) query.execute(customerId));
 	}
 
 	@Override

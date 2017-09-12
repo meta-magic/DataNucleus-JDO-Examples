@@ -14,6 +14,9 @@ import com.desire3d.examples.jdo.PMFConfig;
 import com.desire3d.examples.jdo.model.Product;
 import com.desire3d.examples.jdo.repository.ProductRepository;
 
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
 /**
  * @author mahesh
  */
@@ -22,13 +25,13 @@ import com.desire3d.examples.jdo.repository.ProductRepository;
 public class ProductRepositoryImpl implements ProductRepository {
 
 	@Override
-	public Product save(Product product) {
+	public Mono<Product> save(Product product) {
 		PersistenceManager pm = PMFConfig.getPersistenceManagerFactory().getPersistenceManager();
-		return pm.makePersistent(product);
+		return Mono.just(pm.makePersistent(product));
 	}
 
 	@Override
-	public Product update(Product product) {
+	public Mono<Product> update(Product product) {
 		PersistenceManager pm = PMFConfig.getPersistenceManagerFactory().getPersistenceManager();
 		Product oldProduct = pm.getObjectById(Product.class, product.getProductId());
 		if (product.getCategory() != null)
@@ -39,7 +42,7 @@ public class ProductRepositoryImpl implements ProductRepository {
 			oldProduct.setDescription(product.getDescription());
 		if (product.getPrice() != null)
 			oldProduct.setPrice(product.getPrice());
-		return pm.makePersistent(oldProduct);
+		return Mono.just(pm.makePersistent(oldProduct));
 	}
 
 	@Override
@@ -51,16 +54,16 @@ public class ProductRepositoryImpl implements ProductRepository {
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public List<Product> findAll() {
+	public Flux<Product> findAll() {
 		PersistenceManager pm = PMFConfig.getPersistenceManagerFactory().getPersistenceManager();
 		Query query = pm.newQuery(Product.class);
-		return (List<Product>) query.execute();
+		return Flux.fromIterable((List<Product>) query.execute());
 	}
 
 	@Override
-	public Product findById(Long productId) {
+	public Mono<Product> findById(Long productId) {
 		PersistenceManager pm = PMFConfig.getPersistenceManagerFactory().getPersistenceManager();
 		Product product = pm.getObjectById(Product.class, productId);
-		return product;
+		return Mono.justOrEmpty(product);
 	}
 }

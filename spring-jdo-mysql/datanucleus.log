@@ -1,0 +1,1073 @@
+11:50:49,624 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+11:50:49,651 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+11:50:49,675 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+11:50:49,677 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+11:50:49,679 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.1.1 at URL file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar.
+11:50:49,690 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar!/plugin.xml.
+11:50:49,700 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar!/plugin.xml.
+11:50:49,702 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.1.1 at URL file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar.
+11:50:49,707 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar!/plugin.xml.
+11:50:49,709 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar!/plugin.xml.
+11:50:49,710 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.1.1 at URL file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar.
+11:50:49,713 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar!/plugin.xml.
+11:50:49,716 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar!/plugin.xml.
+11:50:49,743 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+11:50:49,789 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+11:50:49,792 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+11:50:49,792 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.1) for API "JDO"
+11:50:49,792 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+11:50:49,792 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-maven-plugin/5.0.2/datanucleus-maven-plugin-5.0.2.jar
+11:50:49,792 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+11:50:49,793 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/git/DataNucleus-JDO-Examples/spring-jdo-mysql/target/classes
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/2.0.0.M3/spring-boot-starter-webflux-2.0.0.M3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.0.M3/spring-boot-starter-2.0.0.M3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot/2.0.0.M3/spring-boot-2.0.0.M3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-context/5.0.0.RC3/spring-context-5.0.0.RC3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-aop/5.0.0.RC3/spring-aop-5.0.0.RC3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-expression/5.0.0.RC3/spring-expression-5.0.0.RC3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.0.M3/spring-boot-autoconfigure-2.0.0.M3.jar
+11:50:49,794 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.0.M3/spring-boot-starter-logging-2.0.0.M3.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.0.M3/spring-boot-starter-json-2.0.0.M3.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr4/jackson-databind-2.9.0.pr4.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr4/jackson-annotations-2.9.0.pr4.jar
+11:50:49,795 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.0.pr4/jackson-core-2.9.0.pr4.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.0.pr4/jackson-datatype-jdk8-2.9.0.pr4.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.0.pr4/jackson-datatype-jsr310-2.9.0.pr4.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.0.pr4/jackson-module-parameter-names-2.9.0.pr4.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/module/jackson-module-kotlin/2.9.0.pr4/jackson-module-kotlin-2.9.0.pr4.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.0.0.M3/spring-boot-starter-reactor-netty-2.0.0.M3.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/projectreactor/ipc/reactor-netty/0.7.0.M1/reactor-netty-0.7.0.M1.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-codec-http/4.1.13.Final/netty-codec-http-4.1.13.Final.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-codec/4.1.13.Final/netty-codec-4.1.13.Final.jar
+11:50:49,796 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-handler/4.1.13.Final/netty-handler-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-buffer/4.1.13.Final/netty-buffer-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-transport/4.1.13.Final/netty-transport-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-resolver/4.1.13.Final/netty-resolver-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-handler-proxy/4.1.13.Final/netty-handler-proxy-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-codec-socks/4.1.13.Final/netty-codec-socks-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.13.Final/netty-transport-native-epoll-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-common/4.1.13.Final/netty-common-4.1.13.Final.jar
+11:50:49,797 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.13.Final/netty-transport-native-unix-common-4.1.13.Final.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/projectreactor/ipc/reactor-ipc/0.7.0.M1/reactor-ipc-0.7.0.M1.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-web/5.0.0.RC3/spring-web-5.0.0.RC3.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-beans/5.0.0.RC3/spring-beans-5.0.0.RC3.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-webflux/5.0.0.RC3/spring-webflux-5.0.0.RC3.jar
+11:50:49,798 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/projectreactor/reactor-core/3.1.0.M3/reactor-core-3.1.0.M3.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-core/5.0.0.RC3/spring-core-5.0.0.RC3.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-jcl/5.0.0.RC3/spring-jcl-5.0.0.RC3.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar
+11:50:49,799 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/javax.jdo/3.2.0-m7/javax.jdo-3.2.0-m7.jar
+11:50:49,800 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar
+11:50:49,801 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar
+11:50:49,801 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+11:50:49,801 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+11:50:49,813 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[com.desire3d.examples.jdo.controller.ProductController, com.desire3d.examples.jdo.controller.ShoppingCartController, com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl, com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl, com.desire3d.examples.jdo.repository.ShoppingCartRepository, com.desire3d.examples.jdo.repository.ProductRepository, com.desire3d.examples.jdo.model.CartItem, com.desire3d.examples.jdo.model.Product, com.desire3d.examples.jdo.model.Person, com.desire3d.examples.jdo.model.ShoppingCart, com.desire3d.examples.jdo.util.SessionSimulator, com.desire3d.examples.jdo.ds.ShoppingCartDS, com.desire3d.examples.jdo.SpringJdoMySQLApplication, com.desire3d.examples.jdo.PMFConfig]" ...
+11:50:49,845 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ProductController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,847 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /META-INF/package.jdo
+11:50:49,847 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /WEB-INF/package.jdo
+11:50:49,847 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /package.jdo
+11:50:49,847 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/package.jdo
+11:50:49,848 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com.jdo
+11:50:49,848 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/package.jdo
+11:50:49,848 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d.jdo
+11:50:49,849 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,849 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples.jdo
+11:50:49,849 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,849 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,849 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/controller/package.jdo
+11:50:49,850 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/controller.jdo
+11:50:49,850 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/controller/ProductController.jdo
+11:50:49,850 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" not found
+11:50:49,850 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ProductController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,850 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.controller.ProductController" as not having MetaData.
+11:50:49,851 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ProductController" has no MetaData or annotations.
+11:50:49,851 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ShoppingCartController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,852 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /META-INF/package.jdo
+11:50:49,852 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /WEB-INF/package.jdo
+11:50:49,852 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /package.jdo
+11:50:49,853 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/package.jdo
+11:50:49,853 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com.jdo
+11:50:49,854 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/package.jdo
+11:50:49,854 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d.jdo
+11:50:49,854 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,854 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples.jdo
+11:50:49,855 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,855 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,855 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/controller/package.jdo
+11:50:49,855 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/controller.jdo
+11:50:49,856 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/controller/ShoppingCartController.jdo
+11:50:49,856 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" not found
+11:50:49,856 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ShoppingCartController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,856 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.controller.ShoppingCartController" as not having MetaData.
+11:50:49,856 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ShoppingCartController" has no MetaData or annotations.
+11:50:49,860 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,861 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /META-INF/package.jdo
+11:50:49,861 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /WEB-INF/package.jdo
+11:50:49,862 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /package.jdo
+11:50:49,862 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/package.jdo
+11:50:49,862 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com.jdo
+11:50:49,862 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/package.jdo
+11:50:49,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d.jdo
+11:50:49,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples.jdo
+11:50:49,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,864 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,864 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:49,864 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:49,864 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/package.jdo
+11:50:49,865 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl.jdo
+11:50:49,865 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/ShoppingCartRepositoryImpl.jdo
+11:50:49,865 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" not found
+11:50:49,865 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,865 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" as not having MetaData.
+11:50:49,865 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" has no MetaData or annotations.
+11:50:49,866 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /META-INF/package.jdo
+11:50:49,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /WEB-INF/package.jdo
+11:50:49,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /package.jdo
+11:50:49,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/package.jdo
+11:50:49,868 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com.jdo
+11:50:49,868 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/package.jdo
+11:50:49,868 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d.jdo
+11:50:49,868 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,869 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples.jdo
+11:50:49,869 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,869 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,870 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:49,870 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:49,870 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/package.jdo
+11:50:49,870 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl.jdo
+11:50:49,871 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/ProductRepositoryImpl.jdo
+11:50:49,871 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" not found
+11:50:49,871 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,871 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" as not having MetaData.
+11:50:49,871 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" has no MetaData or annotations.
+11:50:49,872 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /META-INF/package.jdo
+11:50:49,872 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /WEB-INF/package.jdo
+11:50:49,872 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /package.jdo
+11:50:49,872 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/package.jdo
+11:50:49,873 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com.jdo
+11:50:49,873 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/package.jdo
+11:50:49,873 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d.jdo
+11:50:49,873 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,874 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples.jdo
+11:50:49,874 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,874 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,874 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:49,875 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:49,875 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/repository/ShoppingCartRepository.jdo
+11:50:49,875 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" not found
+11:50:49,875 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" as not having MetaData.
+11:50:49,875 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" has no MetaData or annotations.
+11:50:49,876 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /META-INF/package.jdo
+11:50:49,876 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /WEB-INF/package.jdo
+11:50:49,876 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /package.jdo
+11:50:49,876 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/package.jdo
+11:50:49,876 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/package.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,877 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:49,878 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:49,878 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/repository/ProductRepository.jdo
+11:50:49,878 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" not found
+11:50:49,878 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.ProductRepository" as not having MetaData.
+11:50:49,878 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.ProductRepository" has no MetaData or annotations.
+11:50:49,908 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" has been specified with JDO annotations so using those.
+11:50:49,927 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Product" has been specified with JDO annotations so using those.
+11:50:49,929 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" has been specified with JDO annotations so using those.
+11:50:49,929 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.ShoppingCart" has been specified with JDO annotations so using those.
+11:50:49,935 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /META-INF/package.jdo
+11:50:49,936 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /WEB-INF/package.jdo
+11:50:49,936 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /package.jdo
+11:50:49,936 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/package.jdo
+11:50:49,936 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com.jdo
+11:50:49,937 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/package.jdo
+11:50:49,937 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d.jdo
+11:50:49,937 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,937 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples.jdo
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/util/package.jdo
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/util.jdo
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/util/SessionSimulator.jdo
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" not found
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.util.SessionSimulator" as not having MetaData.
+11:50:49,938 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.util.SessionSimulator" has no MetaData or annotations.
+11:50:49,940 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.ds.ShoppingCartDS" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,940 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /META-INF/package.jdo
+11:50:49,941 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /WEB-INF/package.jdo
+11:50:49,941 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /package.jdo
+11:50:49,941 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/package.jdo
+11:50:49,941 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com.jdo
+11:50:49,941 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/package.jdo
+11:50:49,941 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d.jdo
+11:50:49,942 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,942 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples.jdo
+11:50:49,942 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,942 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,942 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/ds/package.jdo
+11:50:49,943 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/ds.jdo
+11:50:49,943 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/ds/ShoppingCartDS.jdo
+11:50:49,943 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" not found
+11:50:49,943 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.ds.ShoppingCartDS" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,943 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.ds.ShoppingCartDS" as not having MetaData.
+11:50:49,943 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.ds.ShoppingCartDS" has no MetaData or annotations.
+11:50:49,959 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,960 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /META-INF/package.jdo
+11:50:49,960 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /WEB-INF/package.jdo
+11:50:49,960 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /package.jdo
+11:50:49,960 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/package.jdo
+11:50:49,961 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com.jdo
+11:50:49,961 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/package.jdo
+11:50:49,961 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d.jdo
+11:50:49,961 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,961 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples.jdo
+11:50:49,961 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,962 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,962 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/jdo/SpringJdoMySQLApplication.jdo
+11:50:49,962 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" not found
+11:50:49,962 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:49,962 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" as not having MetaData.
+11:50:49,962 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" has no MetaData or annotations.
+11:50:49,963 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /META-INF/package.jdo
+11:50:49,963 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /WEB-INF/package.jdo
+11:50:49,963 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /package.jdo
+11:50:49,963 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/package.jdo
+11:50:49,963 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/package.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/package.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/jdo/PMFConfig.jdo
+11:50:49,964 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" not found
+11:50:49,965 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.PMFConfig" as not having MetaData.
+11:50:49,965 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.PMFConfig" has no MetaData or annotations.
+11:50:49,965 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+11:50:49,965 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" : Populating Meta-Data
+11:50:49,966 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" field "productId" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:49,966 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" field "quantity" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:49,968 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Product" : Populating Meta-Data
+11:50:49,968 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" : Populating Meta-Data
+11:50:49,968 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" field "name" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:49,968 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" field "address" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:49,968 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" field "phone" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:49,968 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.ShoppingCart" : Populating Meta-Data
+11:50:49,969 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+11:50:49,969 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" : Initialising Meta-Data
+11:50:49,972 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Product" : Initialising Meta-Data
+11:50:49,972 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" : Initialising Meta-Data
+11:50:49,972 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.ShoppingCart" : Initialising Meta-Data
+11:50:49,972 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+11:50:49,975 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.CartItem" starting ...
+11:50:49,993 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnStateManager" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnInheritedFieldCount" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnFlags" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnFieldTypes" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnFieldNames" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnFieldFlags" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have field "dnPersistableSuperclass" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnReplaceField" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnGetStateManager" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnIsTransactional" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnNewInstance" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnNewInstance" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnSuperClone" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnProvideFields" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "___dn$loadClass" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnGetManagedFieldCount" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnIsDirty" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnReplaceStateManager" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnReplaceFlags" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnIsDetached" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnMakeDirty" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "__dnPersistableSuperclassInit" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnIsDeleted" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "__dnFieldFlagsInit" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "__dnFieldTypesInit" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnProvideField" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnPreSerialize" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnGetObjectId" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnGetVersion" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnGetTransactionalObjectId" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnIsNew" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:49,994 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnCopyField" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnGetExecutionContext" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnCopyFields" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "__dnGetInheritedFieldCount" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnIsPersistent" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "dnReplaceFields" but is required
+11:50:49,995 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" doesnt have method "__dnFieldNamesInit" but is required
+11:50:50,002 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+11:50:50,006 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.CartItem.productId"
+11:50:50,006 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.CartItem.quantity"
+11:50:50,006 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.getCartItemId changing field "com.desire3d.examples.jdo.model.CartItem.cartItemId" for call to "dnGetcartItemId()"
+11:50:50,007 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.setCartItemId changing field "com.desire3d.examples.jdo.model.CartItem.cartItemId" for call to "dnSetcartItemId()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.getShoppingCart changing field "com.desire3d.examples.jdo.model.CartItem.shoppingCart" for call to "dnGetshoppingCart()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.setShoppingCart changing field "com.desire3d.examples.jdo.model.CartItem.shoppingCart" for call to "dnSetshoppingCart()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.getProductId changing field "com.desire3d.examples.jdo.model.CartItem.productId" for call to "dnGetproductId()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.setProductId changing field "com.desire3d.examples.jdo.model.CartItem.productId" for call to "dnSetproductId()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.getQuantity changing field "com.desire3d.examples.jdo.model.CartItem.quantity" for call to "dnGetquantity()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.CartItem.setQuantity changing field "com.desire3d.examples.jdo.model.CartItem.quantity" for call to "dnSetquantity()"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+11:50:50,008 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+11:50:50,009 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+11:50:50,009 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+11:50:50,009 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+11:50:50,011 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+11:50:50,011 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+11:50:50,011 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+11:50:50,011 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+11:50:50,012 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+11:50:50,012 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+11:50:50,012 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+11:50:50,012 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+11:50:50,012 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+11:50:50,012 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+11:50:50,013 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+11:50:50,013 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+11:50:50,013 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+11:50:50,013 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+11:50:50,014 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+11:50:50,014 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+11:50:50,014 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+11:50:50,014 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+11:50:50,014 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+11:50:50,014 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+11:50:50,015 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+11:50:50,015 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,015 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+11:50:50,015 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,015 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+11:50:50,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+11:50:50,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+11:50:50,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.desire3d.examples.jdo.model.CartItem obj, int index)"
+11:50:50,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+11:50:50,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+11:50:50,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+11:50:50,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+11:50:50,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+11:50:50,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+11:50:50,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+11:50:50,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+11:50:50,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+11:50:50,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+11:50:50,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Long dnGetcartItemId(com.desire3d.examples.jdo.model.CartItem objPC)"
+11:50:50,020 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetcartItemId(com.desire3d.examples.jdo.model.CartItem objPC, java.lang.Long val)"
+11:50:50,020 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Long dnGetproductId(com.desire3d.examples.jdo.model.CartItem objPC)"
+11:50:50,021 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetproductId(com.desire3d.examples.jdo.model.CartItem objPC, java.lang.Long val)"
+11:50:50,021 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Integer dnGetquantity(com.desire3d.examples.jdo.model.CartItem objPC)"
+11:50:50,021 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetquantity(com.desire3d.examples.jdo.model.CartItem objPC, java.lang.Integer val)"
+11:50:50,021 (main) DEBUG [DataNucleus.Enhancer] - Adding method "com.desire3d.examples.jdo.model.ShoppingCart dnGetshoppingCart(com.desire3d.examples.jdo.model.CartItem objPC)"
+11:50:50,021 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetshoppingCart(com.desire3d.examples.jdo.model.CartItem objPC, com.desire3d.examples.jdo.model.ShoppingCart val)"
+11:50:50,022 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/mahesh/git/DataNucleus-JDO-Examples/spring-jdo-mysql/target/classes/com/desire3d/examples/jdo/model/CartItem.class" with enhanced definition
+11:50:50,023 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.CartItem
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.CartItem" completed
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Product" starting ...
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnStateManager" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnInheritedFieldCount" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnFlags" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnFieldTypes" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnFieldNames" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnFieldFlags" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have field "dnPersistableSuperclass" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnReplaceField" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnGetStateManager" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnIsTransactional" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnNewInstance" but is required
+11:50:50,023 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnNewInstance" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnSuperClone" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnProvideFields" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "___dn$loadClass" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnGetManagedFieldCount" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnIsDirty" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnReplaceStateManager" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnReplaceFlags" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnIsDetached" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnMakeDirty" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "__dnPersistableSuperclassInit" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnIsDeleted" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "__dnFieldFlagsInit" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "__dnFieldTypesInit" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnProvideField" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnPreSerialize" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnGetObjectId" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnGetVersion" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnGetTransactionalObjectId" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnIsNew" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnCopyField" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnGetExecutionContext" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnCopyFields" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "__dnGetInheritedFieldCount" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnIsPersistent" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "dnReplaceFields" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" doesnt have method "__dnFieldNamesInit" but is required
+11:50:50,024 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Product.productId"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Product.category"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Product.name"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Product.description"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Product.price"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.getProductId changing field "com.desire3d.examples.jdo.model.Product.productId" for call to "dnGetproductId()"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.setProductId changing field "com.desire3d.examples.jdo.model.Product.productId" for call to "dnSetproductId()"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.getCategory changing field "com.desire3d.examples.jdo.model.Product.category" for call to "dnGetcategory()"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.setCategory changing field "com.desire3d.examples.jdo.model.Product.category" for call to "dnSetcategory()"
+11:50:50,025 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.getName changing field "com.desire3d.examples.jdo.model.Product.name" for call to "dnGetname()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.setName changing field "com.desire3d.examples.jdo.model.Product.name" for call to "dnSetname()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.getDescription changing field "com.desire3d.examples.jdo.model.Product.description" for call to "dnGetdescription()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.setDescription changing field "com.desire3d.examples.jdo.model.Product.description" for call to "dnSetdescription()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.getPrice changing field "com.desire3d.examples.jdo.model.Product.price" for call to "dnGetprice()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Product.setPrice changing field "com.desire3d.examples.jdo.model.Product.price" for call to "dnSetprice()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+11:50:50,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+11:50:50,027 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+11:50:50,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.desire3d.examples.jdo.model.Product obj, int index)"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+11:50:50,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetcategory(com.desire3d.examples.jdo.model.Product objPC)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetcategory(com.desire3d.examples.jdo.model.Product objPC, java.lang.String val)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetdescription(com.desire3d.examples.jdo.model.Product objPC)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetdescription(com.desire3d.examples.jdo.model.Product objPC, java.lang.String val)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetname(com.desire3d.examples.jdo.model.Product objPC)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetname(com.desire3d.examples.jdo.model.Product objPC, java.lang.String val)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Double dnGetprice(com.desire3d.examples.jdo.model.Product objPC)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetprice(com.desire3d.examples.jdo.model.Product objPC, java.lang.Double val)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Long dnGetproductId(com.desire3d.examples.jdo.model.Product objPC)"
+11:50:50,030 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetproductId(com.desire3d.examples.jdo.model.Product objPC, java.lang.Long val)"
+11:50:50,031 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/mahesh/git/DataNucleus-JDO-Examples/spring-jdo-mysql/target/classes/com/desire3d/examples/jdo/model/Product.class" with enhanced definition
+11:50:50,031 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.Product
+11:50:50,031 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Product" completed
+11:50:50,031 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Person" starting ...
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt implement the interface "org.datanucleus.enhancement.Detachable" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnStateManager" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnDetachedState" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnInheritedFieldCount" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnFlags" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnFieldTypes" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnFieldNames" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnFieldFlags" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have field "dnPersistableSuperclass" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnReplaceField" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnGetStateManager" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnIsTransactional" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnNewInstance" but is required
+11:50:50,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnNewInstance" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnSuperClone" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnProvideFields" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "___dn$loadClass" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnGetManagedFieldCount" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnIsDirty" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnReplaceStateManager" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnReplaceFlags" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnIsDetached" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnMakeDirty" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "__dnPersistableSuperclassInit" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnIsDeleted" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "__dnFieldFlagsInit" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "__dnFieldTypesInit" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnProvideField" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnPreSerialize" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnGetObjectId" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnGetVersion" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnGetTransactionalObjectId" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnIsNew" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnCopyField" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnGetExecutionContext" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnCopyFields" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "__dnGetInheritedFieldCount" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnReplaceDetachedState" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnIsPersistent" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "dnReplaceFields" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" doesnt have method "__dnFieldNamesInit" but is required
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Detachable
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+11:50:50,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.id"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.name"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.address"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.getId changing field "com.desire3d.examples.jdo.model.Person.id" for call to "dnGetid()"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.getName changing field "com.desire3d.examples.jdo.model.Person.name" for call to "dnGetname()"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.getAddress changing field "com.desire3d.examples.jdo.model.Person.address" for call to "dnGetaddress()"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.id"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.name"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.address"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.<init> : omitting enhance of set of field "com.desire3d.examples.jdo.model.Person.phone"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.Person.getPhone changing field "com.desire3d.examples.jdo.model.Person.phone" for call to "dnGetphone()"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Object; dnDetachedState"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+11:50:50,034 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+11:50:50,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceDetachedState()"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.desire3d.examples.jdo.model.Person obj, int index)"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+11:50:50,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetaddress(com.desire3d.examples.jdo.model.Person objPC)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetaddress(com.desire3d.examples.jdo.model.Person objPC, java.lang.String val)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Long dnGetid(com.desire3d.examples.jdo.model.Person objPC)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetid(com.desire3d.examples.jdo.model.Person objPC, java.lang.Long val)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetname(com.desire3d.examples.jdo.model.Person objPC)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetname(com.desire3d.examples.jdo.model.Person objPC, java.lang.String val)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Long dnGetphone(com.desire3d.examples.jdo.model.Person objPC)"
+11:50:50,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetphone(com.desire3d.examples.jdo.model.Person objPC, java.lang.Long val)"
+11:50:50,039 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/mahesh/git/DataNucleus-JDO-Examples/spring-jdo-mysql/target/classes/com/desire3d/examples/jdo/model/Person.class" with enhanced definition
+11:50:50,039 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.Person
+11:50:50,039 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Person" completed
+11:50:50,039 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.ShoppingCart" starting ...
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnStateManager" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnInheritedFieldCount" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnFlags" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnFieldTypes" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnFieldNames" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnFieldFlags" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have field "dnPersistableSuperclass" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnReplaceField" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnGetStateManager" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnIsTransactional" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnNewInstance" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnNewInstance" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnSuperClone" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnProvideFields" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "___dn$loadClass" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnGetManagedFieldCount" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnIsDirty" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnReplaceStateManager" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnReplaceFlags" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnIsDetached" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnMakeDirty" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "__dnPersistableSuperclassInit" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnIsDeleted" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "__dnFieldFlagsInit" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "__dnFieldTypesInit" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnProvideField" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnPreSerialize" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnGetObjectId" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnGetVersion" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnGetTransactionalObjectId" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnIsNew" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnCopyField" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnGetExecutionContext" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnCopyFields" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "__dnGetInheritedFieldCount" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnNewObjectIdInstance" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnIsPersistent" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "dnReplaceFields" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" doesnt have method "__dnFieldNamesInit" but is required
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+11:50:50,048 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.getCartId changing field "com.desire3d.examples.jdo.model.ShoppingCart.cartId" for call to "dnGetcartId()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.setCartId changing field "com.desire3d.examples.jdo.model.ShoppingCart.cartId" for call to "dnSetcartId()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.getCustomerId changing field "com.desire3d.examples.jdo.model.ShoppingCart.customerId" for call to "dnGetcustomerId()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.setCustomerId changing field "com.desire3d.examples.jdo.model.ShoppingCart.customerId" for call to "dnSetcustomerId()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.getItems changing field "com.desire3d.examples.jdo.model.ShoppingCart.items" for call to "dnGetitems()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.setItems changing field "com.desire3d.examples.jdo.model.ShoppingCart.items" for call to "dnSetitems()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.addItem changing field "com.desire3d.examples.jdo.model.ShoppingCart.items" for call to "dnGetitems()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.addItem changing field "com.desire3d.examples.jdo.model.ShoppingCart.items" for call to "dnSetitems()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.addItem changing field "com.desire3d.examples.jdo.model.ShoppingCart.items" for call to "dnGetitems()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.desire3d.examples.jdo.model.ShoppingCart.addItem changing field "com.desire3d.examples.jdo.model.ShoppingCart.items" for call to "dnGetitems()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+11:50:50,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+11:50:50,050 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.desire3d.examples.jdo.model.ShoppingCart obj, int index)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetcartId(com.desire3d.examples.jdo.model.ShoppingCart objPC)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetcartId(com.desire3d.examples.jdo.model.ShoppingCart objPC, java.lang.String val)"
+11:50:50,051 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetcustomerId(com.desire3d.examples.jdo.model.ShoppingCart objPC)"
+11:50:50,052 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetcustomerId(com.desire3d.examples.jdo.model.ShoppingCart objPC, java.lang.String val)"
+11:50:50,052 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetitems(com.desire3d.examples.jdo.model.ShoppingCart objPC)"
+11:50:50,052 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetitems(com.desire3d.examples.jdo.model.ShoppingCart objPC, java.util.List val)"
+11:50:50,052 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/mahesh/git/DataNucleus-JDO-Examples/spring-jdo-mysql/target/classes/com/desire3d/examples/jdo/model/ShoppingCart.class" with enhanced definition
+11:50:50,052 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.ShoppingCart
+11:50:50,052 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.ShoppingCart" completed
+11:50:50,053 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes. Timings : input=170 ms, enhance=80 ms, total=250 ms. Consult the log for full details
+11:50:55,094 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+11:50:55,115 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+11:50:55,135 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+11:50:55,137 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+11:50:55,139 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.1.1 at URL file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar.
+11:50:55,151 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar!/plugin.xml.
+11:50:55,162 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar!/plugin.xml.
+11:50:55,164 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.1.1 at URL file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar.
+11:50:55,170 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar!/plugin.xml.
+11:50:55,172 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar!/plugin.xml.
+11:50:55,174 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.1.1 at URL file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar.
+11:50:55,177 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar!/plugin.xml.
+11:50:55,180 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar!/plugin.xml.
+11:50:55,207 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+11:50:55,253 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+11:50:55,255 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+11:50:55,255 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.1) for API "JDO"
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-maven-plugin/5.0.2/datanucleus-maven-plugin-5.0.2.jar
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.jar
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar
+11:50:55,256 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+11:50:55,257 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/git/DataNucleus-JDO-Examples/spring-jdo-mysql/target/classes
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/2.0.0.M3/spring-boot-starter-webflux-2.0.0.M3.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.0.M3/spring-boot-starter-2.0.0.M3.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot/2.0.0.M3/spring-boot-2.0.0.M3.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-context/5.0.0.RC3/spring-context-5.0.0.RC3.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-aop/5.0.0.RC3/spring-aop-5.0.0.RC3.jar
+11:50:55,258 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-expression/5.0.0.RC3/spring-expression-5.0.0.RC3.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.0.M3/spring-boot-autoconfigure-2.0.0.M3.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.0.M3/spring-boot-starter-logging-2.0.0.M3.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.0.M3/spring-boot-starter-json-2.0.0.M3.jar
+11:50:55,259 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr4/jackson-databind-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr4/jackson-annotations-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.0.pr4/jackson-core-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.0.pr4/jackson-datatype-jdk8-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.0.pr4/jackson-datatype-jsr310-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.0.pr4/jackson-module-parameter-names-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/jackson/module/jackson-module-kotlin/2.9.0.pr4/jackson-module-kotlin-2.9.0.pr4.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.0.0.M3/spring-boot-starter-reactor-netty-2.0.0.M3.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/projectreactor/ipc/reactor-netty/0.7.0.M1/reactor-netty-0.7.0.M1.jar
+11:50:55,260 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-codec-http/4.1.13.Final/netty-codec-http-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-codec/4.1.13.Final/netty-codec-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-handler/4.1.13.Final/netty-handler-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-buffer/4.1.13.Final/netty-buffer-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-transport/4.1.13.Final/netty-transport-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-resolver/4.1.13.Final/netty-resolver-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-handler-proxy/4.1.13.Final/netty-handler-proxy-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-codec-socks/4.1.13.Final/netty-codec-socks-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.13.Final/netty-transport-native-epoll-4.1.13.Final.jar
+11:50:55,261 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-common/4.1.13.Final/netty-common-4.1.13.Final.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.13.Final/netty-transport-native-unix-common-4.1.13.Final.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/projectreactor/ipc/reactor-ipc/0.7.0.M1/reactor-ipc-0.7.0.M1.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-web/5.0.0.RC3/spring-web-5.0.0.RC3.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-beans/5.0.0.RC3/spring-beans-5.0.0.RC3.jar
+11:50:55,262 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-webflux/5.0.0.RC3/spring-webflux-5.0.0.RC3.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/io/projectreactor/reactor-core/3.1.0.M3/reactor-core-3.1.0.M3.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-core/5.0.0.RC3/spring-core-5.0.0.RC3.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/springframework/spring-jcl/5.0.0.RC3/spring-jcl-5.0.0.RC3.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-core/5.1.1/datanucleus-core-5.1.1.jar
+11:50:55,263 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.1/datanucleus-api-jdo-5.1.1.jar
+11:50:55,264 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/javax.jdo/3.2.0-m7/javax.jdo-3.2.0-m7.jar
+11:50:55,264 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar
+11:50:55,264 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.1/datanucleus-rdbms-5.1.1.jar
+11:50:55,264 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/mahesh/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+11:50:55,265 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+11:50:55,276 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[com.desire3d.examples.jdo.controller.ProductController, com.desire3d.examples.jdo.controller.ShoppingCartController, com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl, com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl, com.desire3d.examples.jdo.repository.ShoppingCartRepository, com.desire3d.examples.jdo.repository.ProductRepository, com.desire3d.examples.jdo.model.CartItem, com.desire3d.examples.jdo.model.Product, com.desire3d.examples.jdo.model.Person, com.desire3d.examples.jdo.model.ShoppingCart, com.desire3d.examples.jdo.util.SessionSimulator, com.desire3d.examples.jdo.ds.ShoppingCartDS, com.desire3d.examples.jdo.SpringJdoMySQLApplication, com.desire3d.examples.jdo.PMFConfig]" ...
+11:50:55,318 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ProductController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,319 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /META-INF/package.jdo
+11:50:55,319 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /WEB-INF/package.jdo
+11:50:55,320 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /package.jdo
+11:50:55,324 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/package.jdo
+11:50:55,324 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com.jdo
+11:50:55,324 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/package.jdo
+11:50:55,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d.jdo
+11:50:55,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples.jdo
+11:50:55,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/controller/package.jdo
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/controller.jdo
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" NOT found at /com/desire3d/examples/jdo/controller/ProductController.jdo
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ProductController" not found
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ProductController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.controller.ProductController" as not having MetaData.
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ProductController" has no MetaData or annotations.
+11:50:55,326 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ShoppingCartController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /META-INF/package.jdo
+11:50:55,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /WEB-INF/package.jdo
+11:50:55,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /package.jdo
+11:50:55,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/package.jdo
+11:50:55,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com.jdo
+11:50:55,329 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/package.jdo
+11:50:55,329 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d.jdo
+11:50:55,329 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,329 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples.jdo
+11:50:55,329 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,330 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,330 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/controller/package.jdo
+11:50:55,333 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/controller.jdo
+11:50:55,333 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" NOT found at /com/desire3d/examples/jdo/controller/ShoppingCartController.jdo
+11:50:55,333 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.controller.ShoppingCartController" not found
+11:50:55,333 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ShoppingCartController" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,333 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.controller.ShoppingCartController" as not having MetaData.
+11:50:55,333 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.controller.ShoppingCartController" has no MetaData or annotations.
+11:50:55,336 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,337 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /META-INF/package.jdo
+11:50:55,337 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /WEB-INF/package.jdo
+11:50:55,337 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /package.jdo
+11:50:55,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/package.jdo
+11:50:55,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com.jdo
+11:50:55,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/package.jdo
+11:50:55,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d.jdo
+11:50:55,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/package.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/ShoppingCartRepositoryImpl.jdo
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" not found
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" as not having MetaData.
+11:50:55,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ShoppingCartRepositoryImpl" has no MetaData or annotations.
+11:50:55,340 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,340 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /META-INF/package.jdo
+11:50:55,340 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /WEB-INF/package.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /package.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/package.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/package.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples.jdo
+11:50:55,341 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/package.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" NOT found at /com/desire3d/examples/jdo/repository/impl/ProductRepositoryImpl.jdo
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" not found
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" as not having MetaData.
+11:50:55,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.impl.ProductRepositoryImpl" has no MetaData or annotations.
+11:50:55,343 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /META-INF/package.jdo
+11:50:55,343 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /WEB-INF/package.jdo
+11:50:55,343 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /package.jdo
+11:50:55,343 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/package.jdo
+11:50:55,343 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com.jdo
+11:50:55,344 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/package.jdo
+11:50:55,344 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d.jdo
+11:50:55,344 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,344 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples.jdo
+11:50:55,344 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,344 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,345 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:55,345 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:55,345 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" NOT found at /com/desire3d/examples/jdo/repository/ShoppingCartRepository.jdo
+11:50:55,345 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" not found
+11:50:55,345 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" as not having MetaData.
+11:50:55,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.ShoppingCartRepository" has no MetaData or annotations.
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /META-INF/package.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /WEB-INF/package.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /package.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/package.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/package.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d.jdo
+11:50:55,346 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/repository/package.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/repository.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" NOT found at /com/desire3d/examples/jdo/repository/ProductRepository.jdo
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.repository.ProductRepository" not found
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.repository.ProductRepository" as not having MetaData.
+11:50:55,347 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.repository.ProductRepository" has no MetaData or annotations.
+11:50:55,374 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" has been specified with JDO annotations so using those.
+11:50:55,396 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Product" has been specified with JDO annotations so using those.
+11:50:55,399 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" has been specified with JDO annotations so using those.
+11:50:55,400 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.ShoppingCart" has been specified with JDO annotations so using those.
+11:50:55,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /META-INF/package.jdo
+11:50:55,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /WEB-INF/package.jdo
+11:50:55,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /package.jdo
+11:50:55,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/package.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/package.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/util/package.jdo
+11:50:55,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/util.jdo
+11:50:55,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" NOT found at /com/desire3d/examples/jdo/util/SessionSimulator.jdo
+11:50:55,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.util.SessionSimulator" not found
+11:50:55,409 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.util.SessionSimulator" as not having MetaData.
+11:50:55,409 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.util.SessionSimulator" has no MetaData or annotations.
+11:50:55,411 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.ds.ShoppingCartDS" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,411 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /META-INF/package.jdo
+11:50:55,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /WEB-INF/package.jdo
+11:50:55,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /package.jdo
+11:50:55,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/package.jdo
+11:50:55,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com.jdo
+11:50:55,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/package.jdo
+11:50:55,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d.jdo
+11:50:55,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples.jdo
+11:50:55,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/ds/package.jdo
+11:50:55,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/ds.jdo
+11:50:55,414 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" NOT found at /com/desire3d/examples/jdo/ds/ShoppingCartDS.jdo
+11:50:55,414 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.ds.ShoppingCartDS" not found
+11:50:55,414 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.ds.ShoppingCartDS" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,414 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.ds.ShoppingCartDS" as not having MetaData.
+11:50:55,414 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.ds.ShoppingCartDS" has no MetaData or annotations.
+11:50:55,428 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,428 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /META-INF/package.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /WEB-INF/package.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /package.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/package.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/package.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d.jdo
+11:50:55,429 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples.jdo
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" NOT found at /com/desire3d/examples/jdo/SpringJdoMySQLApplication.jdo
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" not found
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" as not having MetaData.
+11:50:55,430 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.SpringJdoMySQLApplication" has no MetaData or annotations.
+11:50:55,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /META-INF/package.jdo
+11:50:55,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /WEB-INF/package.jdo
+11:50:55,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /package.jdo
+11:50:55,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/package.jdo
+11:50:55,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com.jdo
+11:50:55,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/package.jdo
+11:50:55,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d.jdo
+11:50:55,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/package.jdo
+11:50:55,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples.jdo
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/jdo/package.jdo
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/jdo.jdo
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" NOT found at /com/desire3d/examples/jdo/PMFConfig.jdo
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.desire3d.examples.jdo.PMFConfig" not found
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.desire3d.examples.jdo.PMFConfig" as not having MetaData.
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.PMFConfig" has no MetaData or annotations.
+11:50:55,433 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+11:50:55,434 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" : Populating Meta-Data
+11:50:55,434 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" field "productId" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:55,434 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" field "quantity" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:55,436 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Product" : Populating Meta-Data
+11:50:55,436 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" : Populating Meta-Data
+11:50:55,436 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" field "name" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:55,436 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" field "address" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:55,437 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" field "phone" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+11:50:55,437 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.ShoppingCart" : Populating Meta-Data
+11:50:55,437 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+11:50:55,438 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.CartItem" : Initialising Meta-Data
+11:50:55,440 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Product" : Initialising Meta-Data
+11:50:55,440 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.Person" : Initialising Meta-Data
+11:50:55,440 (main) DEBUG [DataNucleus.MetaData] - Class "com.desire3d.examples.jdo.model.ShoppingCart" : Initialising Meta-Data
+11:50:55,440 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+11:50:55,443 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.CartItem" starting ...
+11:50:55,463 (main) INFO  [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.CartItem" is already enhanced.
+11:50:55,463 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.CartItem
+11:50:55,464 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.CartItem" completed
+11:50:55,464 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Product" starting ...
+11:50:55,464 (main) INFO  [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Product" is already enhanced.
+11:50:55,465 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.Product
+11:50:55,465 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Product" completed
+11:50:55,465 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Person" starting ...
+11:50:55,466 (main) INFO  [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.Person" is already enhanced.
+11:50:55,466 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.Person
+11:50:55,466 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.Person" completed
+11:50:55,466 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.ShoppingCart" starting ...
+11:50:55,467 (main) INFO  [DataNucleus.Enhancer] - Class "com.desire3d.examples.jdo.model.ShoppingCart" is already enhanced.
+11:50:55,467 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.desire3d.examples.jdo.model.ShoppingCart
+11:50:55,467 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.desire3d.examples.jdo.model.ShoppingCart" completed
+11:50:55,468 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes. Timings : input=176 ms, enhance=26 ms, total=202 ms. Consult the log for full details

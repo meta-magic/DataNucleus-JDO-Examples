@@ -3,8 +3,6 @@
  */
 package com.desire3d.examples.jdo.controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,6 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.desire3d.examples.jdo.model.Product;
 import com.desire3d.examples.jdo.repository.ProductRepository;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 /**
  * @author mahesh
@@ -28,22 +29,22 @@ public class ProductController {
 	private ProductRepository repository;
 
 	@PostMapping("/save")
-	public Product save(@RequestBody Product product) {
+	public Mono<Product> save(@RequestBody Product product) {
 		return repository.save(product);
 	}
 
 	@PostMapping("/update")
-	public Product update(@RequestBody Product product) {
+	public Mono<Product> update(@RequestBody Product product) {
 		return repository.update(product);
 	}
 
 	@GetMapping("/findAll")
-	public List<Product> findAll() {
+	public Flux<Product> findAll() {
 		return repository.findAll();
 	}
 
 	@GetMapping("/findById/{id}")
-	public Product findById(@PathVariable Long id) {
+	public Mono<Product> findById(@PathVariable Long id) {
 		return repository.findById(id);
 	}
 
