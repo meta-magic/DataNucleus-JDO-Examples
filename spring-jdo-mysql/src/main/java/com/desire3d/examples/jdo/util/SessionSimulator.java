@@ -14,7 +14,7 @@ import java.util.Random;
  */
 public abstract class SessionSimulator {
 
-	private static final List<String> customers = new ArrayList<>(Arrays.asList("Customer1", "Customer2","Customer3", "Customer4", "Customer5" ));
+	private static final List<String> customers = new ArrayList<>(Arrays.asList("Customer1", "Customer2", "Customer3", "Customer4", "Customer5"));
 
 	public static String getLoggedInCustomer() {
 		return customers.get(new Random().nextInt(customers.size()));

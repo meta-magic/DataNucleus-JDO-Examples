@@ -8,6 +8,7 @@
 		<class>com.desire3d.examples.jdo.model.Product</class>
 		<class>com.desire3d.examples.jdo.model.ShoppingCart</class>
 		<class>com.desire3d.examples.jdo.model.CartItem</class>
+		<class>com.desire3d.examples.jdo.model.Person</class>
 		<exclude-unlisted-classes />
 		<properties>
 			<property name="datanucleus.ConnectionURL" value="jdbc:mysql://localhost/onlineshopdb" />
@@ -16,8 +17,7 @@
 			<property name="javax.jdo.option.ConnectionPassword" value="root" />
 			<property name="datanucleus.schema.autoCreateAll" value="true" />
 			<property name="datanucleus.schema.validateTables" value="false" />
-			<property name="datanucleus.schema.validateConstraints"
-				value="false" />
+			<property name="datanucleus.schema.validateConstraints" value="false" />
 		</properties>
 	</persistence-unit>
 </persistence>
